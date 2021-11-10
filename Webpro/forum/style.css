@@ -1,0 +1,120 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/back.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    padding: 25px 45%;
+    background-color: rgb(150, 113, 65);
+    opacity: 90%;
+}
+header a{
+    text-decoration: none;
+    color: #070707;
+    font-size: 36px;
+    background: rgb(223, 223, 224);
+    box-shadow: 0 5px 5px #000000;
+    border: 2px solid;
+}
+.login1{
+position: absolute;
+top: 25px;
+left: 85%;
+background-color:rgb(223, 223, 224);
+box-sizing: border-box;
+box-shadow: 0 5px 5px #000000;
+padding: 10px;
+margin: 10px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    left: 90%;
+    background-color:rgb(223, 223, 224);
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px #000000;
+    padding: 10px;
+    margin: 10px;
+    }
+.login a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+header img {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 65px;
+    float: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 224);
+    padding: 10px;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.navbar a:hover{
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color:rgb(150, 113, 65);
+    color: #000000;
+    padding: 7px 700px;
+    margin: 0;
+    font-size: 14px;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 118%;
+}
+.isi{
+    padding: 5px;
+    width: 99,5%;
+    height: auto;
+    background-color:rgb(150, 113, 65);
+    position: relative;
+    margin-top: 5px;
+}
+.isi .isiposting{
+    background-color:rgb(150, 113, 65);
+    width: 98%;
+    height: 150px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 3px solid rgb(8, 8, 8);
+    box-shadow: 1px 10px 15px #000000;
+}
+.gmbrdpn{
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1 solid #000000;
+}
+.isiposting h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+.isiposting a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.isiposting a:hover{
+    color: yellow;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleR.css">
+</head>
+<body>
+    <header>
+        <a href="../home/home.html" class="logo">LaClean</a>
+        <img src="../img/logo.jpg" alt="">
+    </header>
+    <div class="login">
+        <a class="login1" href="../login/index.html">Login</a>
+        <a class="register" href="../login/regist.html">Register</a>
+    </div>
+    <div class="navbar">
+        <a href="../home/home.html">Home</a>
+        <a href="../feedback/feedback.html">FeedBack</a>
+        <a href="../rating/rating.html">Rating</a>
+        <a href="../forum/forum.html">Forum</a>
+    </div>
+    <div class="login-page">
+    <div class="form">
+        <h2>Register</h2>
+        <div class="input">
+            <p>Username</p>
+            <input type="text" name="" id="usernameTxt" class="input-text" placeholder="Input username" autocomplete="off">
+            <br>
+            <span id="errorUsername"></span>
+        </div>
+        
+        <div class="input">
+            <p>Password</p>
+            <input type="password" name="" id="passwordTxt" class="input-text" placeholder="Input password">
+            <br>
+            <span id="errorPassword"></span>
+        </div>
+
+        <div class="input">
+            <p>Confirm Password</p>
+            <input type="password" class="input-text" placeholder="Re-confirm password" id="rePasswordTxt">
+            <br>
+            <span></span>
+        </div>
+
+        <div class="input">
+            <p>Email</p>
+            <input type="text" name="" id="emailTxt" placeholder="Input Email" class="input-text">
+            <br>
+            <span></span>
+        </div>
+        <div class="input">
+            <p>Birthday</p>
+            <input type="text" name="" id="bdTxt" class="input-text" placeholder="Birthday">
+            <br>
+            <span></span>
+        </div>   
+            
+        <div class="input">
+            <p>Gender</p>
+            <label for="">
+                Male
+                <input type="radio" name="radio" id="" checked="checked">    
+            </label>
+            <label for="">
+                Female
+                <input type="radio" name="radio" id="">    
+            </label>
+        </div>
+
+        <div class="input">
+            <p>Address</p>
+            <input type="text" name="" class="input-text" placeholder="Input address" id="addressTxt">
+            <br>
+            <span></span>
+        </div>
+
+        <div class="checkbox">
+            <input type="checkbox" name="" id="check-box">
+            <label for="">I agree with terms and conditions</label>
+            <br>
+            <span></span>
+        </div>
+        
+        <button type="submit" id="btn-submit">Register</button>
+        <div class="message">
+            <p>Have Account Already? <a href="index.html">Login</a></p>
+        </div>
+    </form>
+    </div>
+</div>
+<br><br>
+    <footer>
+         LaClean Service &copy; 2019
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

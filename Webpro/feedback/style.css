@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/back.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    padding: 25px 45%;
+    background-color: rgb(150, 113, 65);
+    opacity: 90%;
+}
+header a{
+    text-decoration: none;
+    color: #070707;
+    font-size: 36px;
+    background: rgb(223, 223, 224);
+    box-shadow: 0 5px 5px #000000;
+    border: 2px solid;
+}
+.login1{
+position: absolute;
+top: 25px;
+left: 85%;
+background-color:rgb(223, 223, 224);
+box-sizing: border-box;
+box-shadow: 0 5px 5px #000000;
+padding: 10px;
+margin: 10px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    left: 90%;
+    background-color:rgb(223, 223, 224);
+    box-sizing: border-box;
+    box-shadow: 0 5px 5px #000000;
+    padding: 10px;
+    margin: 10px;
+    }
+.login a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+header img {
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 65px;
+    float: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 224);
+    padding: 10px;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+
+.navbar a:hover{
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color:rgb(150, 113, 65);
+    color: #000000;
+    padding: 7px 700px;
+    margin: 0;
+    font-size: 14px;
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 150px;
+    background: linear-gradient(90deg,#b8b7bb , #afaeaf);
+    box-shadow: 0 0 0px 10px;
+    border: 2px solid #bea;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+}
+.form{
+    margin: 30px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 40px;
+    font-family: 'oswald' , sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+}
+.email input{
+    width: 400px;
+    height: 30px;
+    margin-top: 5%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+.username input{
+    width: 400px;
+    height: 30px;
+    margin-top: 5%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+.email input::placeholder{
+    color: black;
+}
+.username input::placeholder{
+    color: black;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    margin-top: 3%;
+    padding-top: 10px;
+    background: linear-gradient(#575555 , rgba(193, 195, 196, 0.667) ,rgba(172, 172, 169, 0));
+    box-shadow: 0 0 20px 4px #303030;
+    resize: none;
+    text-align: center;
+    font-size: 18px;
+}
+textarea::placeholder{
+    color: black;
+}
+.sub{
+    margin-top: 15%;
+    position: relative;
+    cursor: pointer;
+}
+.sub input{
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(159, 161, 161, 0.667), rgba(141, 141, 139, 0));
+    border: 3px solid #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+.sub :hover,.sub:active{
+    border-color: #755bea;
+}
+span{
+    color: red;
+}
